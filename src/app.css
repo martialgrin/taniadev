@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "UnicaM";
+  /* src: url("/fonts/Unica77LL-Medium.otf") format("opentype"); */
+  src: url("./assets/fonts/Unica77LL-Medium.otf") format("opentype");
+  font-weight: unset;
+}
+
+:root {
+  font-family: "UnicaM";
+  font-size: calc(5rem + 0.5vw);
+  line-height: 100%;
+}
+
+
+body, html{
+	height: 100vh;
+	width: 100vw;
+	background-color: #ff0000;
+	overflow: hidden;
+	padding: 0;
+	margin:0;
+
+
+}
